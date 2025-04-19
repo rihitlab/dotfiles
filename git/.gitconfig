@@ -36,7 +36,7 @@
 
 [core]
   editor = code --wait
-  excludesfile = ~/.gitignore_global
+	excludesfile = /dotfiles/git/.gitignore_global
   autocrlf = input
   filemode = true
 
