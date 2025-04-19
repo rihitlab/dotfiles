@@ -1,0 +1,18 @@
+# macOS 系
+.DS_Store
+
+# バックアップ
+*.backup
+
+# 認証系・セッション・個人鍵などは除外
+.ssh/
+*.key
+*.pem
+
+# キャッシュや一時ファイル
+*.swp
+*.log
+
+# バイナリやフォント（必要に応じて）
+assets/fonts/**/*.ttf
+assets/fonts/**/*.otf
